@@ -20,7 +20,8 @@
         },
         {
             "src": "/(.*)",
-            "dest": "poll/wsgi.py"
+            "scr":"pyproject1/wsgi.py",
+            "dest": "pyproject1 /wsgi.py"
         }
     ]
 }
