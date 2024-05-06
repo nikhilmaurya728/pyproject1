@@ -3,13 +3,13 @@
     "builds": [
         {
             "src":"pyproject1/wsgi.py",
-            "user": "@vercel/python",
+            "use": "@vercel/python",
             "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
 
         },
         {
             "src":"build_files.sh",
-            "user": "@vercel/static-build",
+            "use": "@vercel/static-build",
             "config": { "distDir": "staticfiles_build" }
         }
     ],
