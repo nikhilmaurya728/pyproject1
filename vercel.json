@@ -20,7 +20,6 @@
         },
         {
             "src": "/(.*)",
-            "src":"pyproject1/wsgi.py",
             "dest": "pyproject1/wsgi.py"
         }
     ]
